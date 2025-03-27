@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ex_selenium_2025.RelativeLocatorswithDynamicTable">
+      <class name="ex_selenium22_03_2025.ParallelTesting">
         <methods>
-          <include name="test_dyanmic_table"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- ex_selenium_2025.RelativeLocatorswithDynamicTable -->
+      </class> <!-- ex_selenium22_03_2025.ParallelTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
