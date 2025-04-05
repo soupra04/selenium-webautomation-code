@@ -6,7 +6,7 @@ public class Fibonacci {
 
 	//0,0,1,1,2,3,5,8
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub -test
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a Num");
