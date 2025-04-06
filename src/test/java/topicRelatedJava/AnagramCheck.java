@@ -11,10 +11,12 @@ public class AnagramCheck {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enetr input str1");
 		String str1 = sc.nextLine();
+		str1=str1.toLowerCase();
+		
 		
 		System.out.println("Enetr input str2");
 		String str2 = sc.nextLine();
-		
+		str2=str2.toLowerCase();
 		if (str1.length() != str2.length()) {
 			System.out.println("Not Anagram");
 		}
