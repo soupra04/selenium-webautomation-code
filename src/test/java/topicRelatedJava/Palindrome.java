@@ -21,9 +21,7 @@ public class Palindrome {
 		char [] arr1=text1.toCharArray();
 		char [] arr2=text2.toCharArray();
 		
-		if (arr1.length!=arr2.length ) {
-			System.out.println("this is not palindrom");
-		}
+		
 		
 		
 
